@@ -1,0 +1,100 @@
+.transform{
+    position: relative;
+    padding-bottom: 100px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    overflow: clip;
+}
+.transform-content{
+    -webkit-box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    background-color: #ffffff;
+    padding: 50px;
+    margin-left: -100px;
+    margin-top: 100px;
+}
+.transform-content h2 {
+    margin-bottom: 20px;
+    margin-top: -11px;
+    color: #0e0129;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.progress-title-holder {
+    position: relative;
+    margin-bottom: 10px;
+}
+.progress-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+    color: #0e0129;
+}
+.progress-number-wrapper {
+    width: 100%;
+    z-index: 10;
+    font-size: 11px;
+    line-height: 24px;
+    height: 24px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: none;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-bottom: 0 !important;
+}
+.progress-number-mark {
+    margin-bottom: 4px;
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom right, #ff5e68, #d2044d);
+    padding: 0 8px;
+    position: absolute;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin-bottom: 0 !important;
+}
+.percent {
+    margin-bottom: 0 !important;
+    color: #ffffff !important;
+}
+.down-arrow {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #d80650;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #d80650;
+    margin-bottom: 0 !important;
+}
+.progress-content-outter {
+    height: 6px;
+    background-color: #ebeded;
+    border-radius: 50px;
+}
+.progress-content {
+    height: 6px;
+    background-image: linear-gradient(to bottom right, #d2044d, #ff5e68);
+    border-radius: 50px;
+    width: 0%;
+}
+.shape-1 {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+.shape-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
