@@ -1,0 +1,62 @@
+.single-card{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 28px;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.single-card:hover {
+    -webkit-box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    background-color: #ffffff;
+    transform: translateY(-5px);
+    
+}
+.single-card:hover h3  {
+     color: #0e0129;;
+}
+.single-card:hover p  {
+     color: #0e0129;;
+}
+.single-card img {
+    position: absolute;
+    bottom: 0;
+    left: -90px;
+    z-index: -1;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.single-card:hover img {
+    left: -20px;
+}
+.single-card:hover .icon{
+    transform: rotateY(360deg);
+}
+.icon{
+    font-size: 30px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #d2044d, #ff5e68);
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.read-more{
+    line-height: 1;
+    color: #d80650;
+    font-weight: 500;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+}
