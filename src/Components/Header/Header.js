@@ -7,7 +7,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 const Header = () => {
     return (
-        <div className='bg-[#E02156] p-2 text-white font-medium lg:px-20 md:px-10 px-5 flex justify-between items-center'>  
+        <div className='bg-[#0902189f] p-3 text-white font-medium lg:px-20 md:px-10 px-5 flex justify-between items-center'>  
             <div className='flex items-center gap-2'>
             <LocalPostOfficeIcon/>
             info@rainbosoft.com

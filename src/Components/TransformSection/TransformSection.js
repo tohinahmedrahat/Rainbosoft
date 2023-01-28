@@ -2,13 +2,13 @@ import React from 'react';
 import './TransformSection.css';
 const TransformSection = () => {
     return (
-        <div className='transform lg:px-10 md:px-5 px-5'>
+        <div className='transform lg:px-10 md:px-5 px-5 mt-10 z-10'>
             <div className='md:flex'>
                 <div className=''>
                     <img src="https://templates.envytheme.com/seku/default/assets/img/transform-img.jpg" alt="" />
                 </div>
-                <div className='md:w-[50%]'>
-                    <div className='transform-content'>
+                <div className='md:w-[50%] '>
+                    <div className='transform-content bg-[#c876b656] md:ml-[-100px]'>
                         <h2 className='text-4xl'>Transform Your Digital Workflow Be Productive Reduce Risk
                         </h2>
                         <p className='mb-8'>Lorem ipsum dolor sit elit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et dolore magna aliqua. Quis ipsum suspendisse Workflow Be productive consectetur adipiscing elit, sed</p>

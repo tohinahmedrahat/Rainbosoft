@@ -9,12 +9,12 @@ const Navbar = () => {
     const [open, setOpen] = useState(false)
 
     return (
-        <div class="">
-            <nav class="relative px-4 py-4 flex justify-between items-center bg-nav">
+        <div class="sticky top-0 z-50">
+            <nav class=" px-4 py-4 flex justify-between items-center bg-[#41d7eb28] bg-nav">
                 <a class="text-3xl font-bold leading-none flex items-center text-[#fffdfd]" href="#">
                     RainoSoft
                 </a>
-                <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 md:flex lg:mx-auto md:flex md:items-center lg:w-auto lg:space-x-6">
+                <ul class="hidden  md:flex lg:mx-auto md:flex md:items-center lg:w-auto lg:space-x-6">
                     <li><a class="nav-link text-gray-400  " href="#">Home <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
 
                     <li><a class="nav-link  text-gray-400  " href="#">About Us <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <li><a class="nav-link text-gray-400  " href="#">Project <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
                     <li><a class="nav-link text-gray-400  " href="#">Contact <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
                 </ul>
-                <button className='bg-[#E02156] px-5 py-3 text-white font-bold uppercase rounded-sm md:block hidden'>Get A Quote</button>
+                <button className='bg-[#ffffff93] px-5 py-3 text-[#000000] font-bold uppercase rounded-sm md:block hidden'>Get A Quote</button>
                 <button onClick={()=>setOpen(!open)} className='md:hidden text-white'><MenuIcon ></MenuIcon></button>
             </nav>
             <ul className={`${open ? 'left-0' : 'left-[-1200px]'} absolute w-full ease-in duration-700 md:hidden`}>
