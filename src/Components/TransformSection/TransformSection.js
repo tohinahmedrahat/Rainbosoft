@@ -5,7 +5,7 @@ const TransformSection = () => {
         <div className='transform lg:px-10 md:px-5 px-5 mt-10 z-10'>
             <div className='md:flex'>
                 <div className=''>
-                    <img src="https://templates.envytheme.com/seku/default/assets/img/transform-img.jpg" alt="" />
+                    <img className='h-[27rem]' src="https://img.freepik.com/free-vector/app-development-concept-with-desktop_23-2148700922.jpg?w=740&t=st=1674924396~exp=1674924996~hmac=411ac6e84b12de695f94235bc2696c1e6913eb8308810be5eb87e0c31ecd2959" alt="" />
                 </div>
                 <div className='md:w-[50%] '>
                     <div className='transform-content bg-[#c876b656] md:ml-[-100px]'>
