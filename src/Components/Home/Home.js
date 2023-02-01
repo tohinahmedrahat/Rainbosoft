@@ -15,7 +15,7 @@ import WhyChose from '../WhyChose/whyChose';
 
 const Home = () => {
     return (
-        <div>
+        <div className='home'>
             <Header></Header>
             <Navbar></Navbar>
             <Banner></Banner>
@@ -27,7 +27,7 @@ const Home = () => {
             <About></About>
             <OurProject></OurProject>
             <Testimonial></Testimonial>
-            <OurTeam></OurTeam>
+            {/* <OurTeam></OurTeam> */}
             <Footer></Footer>
         </div>
     );

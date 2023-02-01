@@ -12,7 +12,7 @@ const Navbar = () => {
         <div class="sticky top-0 z-50">
             <nav class=" px-4 py-4 flex justify-between items-center bg-[#41d7eb28] bg-nav">
                 <a class="text-3xl font-bold leading-none flex items-center text-[#fffdfd]" href="#">
-                    RainoSoft
+                    RainboSoft
                 </a>
                 <ul class="hidden  md:flex lg:mx-auto md:flex md:items-center lg:w-auto lg:space-x-6">
                     <li><a class="nav-link text-gray-400  " href="#">Home <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
