@@ -1,0 +1,13 @@
+.about-banner{
+    background-image: url("../../assets/img/about.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--cretech-black, #12062c);
+    mix-blend-mode: luminosity;
+    opacity: .7;
+}
