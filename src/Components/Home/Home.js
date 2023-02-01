@@ -16,8 +16,7 @@ import WhyChose from '../WhyChose/whyChose';
 const Home = () => {
     return (
         <div className='home'>
-            <Header></Header>
-            <Navbar></Navbar>
+            
             <Banner></Banner>
             <HighPerformence></HighPerformence>
             <TransformSection></TransformSection>
