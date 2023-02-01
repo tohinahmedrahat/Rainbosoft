@@ -19,7 +19,7 @@ img {
 .transform-content h2 {
     margin-bottom: 20px;
     margin-top: -11px;
-    color: #0e0129;
+    /* color: #0e0129; */
     font-weight: 700;
     text-transform: capitalize;
 }
@@ -29,9 +29,9 @@ img {
 }
 .progress-title {
     font-size: 20px;
-    font-weight: 600;
+    /* font-weight: 600; */
     margin-bottom: 0 !important;
-    color: #0e0129;
+    /* color: #0e0129; */
 }
 .progress-number-wrapper {
     width: 100%;
