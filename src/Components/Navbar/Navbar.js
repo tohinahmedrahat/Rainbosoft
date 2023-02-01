@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Navbar.css'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -17,7 +18,7 @@ const Navbar = () => {
                 <ul class="hidden  md:flex lg:mx-auto md:flex md:items-center lg:w-auto lg:space-x-6">
                     <li><a class="nav-link text-gray-400  " href="#">Home <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
 
-                    <li><a class="nav-link  text-gray-400  " href="#">About Us <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
+                    <li><Link class="nav-link  text-gray-400  " to="/about">About Us <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
 
                     <li><a class="nav-link text-gray-400  " href="#">Services <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
 
