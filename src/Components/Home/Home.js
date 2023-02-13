@@ -9,6 +9,7 @@ import Navbar from '../Navbar/Navbar';
 import OurProject from '../Ourproject/Ourproject';
 import OurTeam from '../OurTeam/OurTeam';
 import Pricing from '../Priceing/Priceing';
+import Technology from '../Technology/Technology';
 import Testimonial from '../Testimonial/Testimonial';
 import TransformSection from '../TransformSection/TransformSection';
 import WhyChose from '../WhyChose/whyChose';
@@ -23,10 +24,11 @@ const Home = () => {
             <Pricing></Pricing>
             <Management></Management>
             <WhyChose></WhyChose>
-            <About></About>
-            <OurProject></OurProject>
-            <Testimonial></Testimonial>
-            {/* <OurTeam></OurTeam> */}
+            {/* <About></About> */}
+            {/* <OurProject></OurProject> */}
+            {/* <Testimonial></Testimonial> */}
+            <Technology></Technology>
+            <OurTeam></OurTeam>
             <Footer></Footer>
         </div>
     );
