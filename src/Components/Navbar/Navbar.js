@@ -35,7 +35,11 @@ const Navbar = () => {
                 <ul class="hidden  md:flex lg:mx-auto md:flex md:items-center lg:w-auto lg:space-x-6">
                     <li><a class="nav-link text-gray-400  " to="/">Home <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
 
+<<<<<<< HEAD
                     <li><a class="nav-link  text-gray-400  " to="/about-us">About Us <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
+=======
+                    <li><Link class="nav-link  text-gray-400  " to="/about">About Us <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
+>>>>>>> 1b689a752b8c50473053b8cdefcfa89bc7b8efd5
 
                     <li><a class="nav-link text-gray-400  " to="/services">Services <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></a></li>
 
