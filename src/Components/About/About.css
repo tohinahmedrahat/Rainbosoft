@@ -1,13 +1,92 @@
-.about-banner{
-    background-image: url("../../assets/img/about.png");
+.page-header {
+    background-color: var(--cretech-black, #12062c);
+    position: relative;
+    height: 500px;
+}
+
+.about-banner {
     position: absolute;
     background-repeat: no-repeat;
+    background-image: url('../../assets/img/about.png');
     background-size: cover;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--cretech-black, #12062c);
+    background-color:  #c3b0eb33;
     mix-blend-mode: luminosity;
-    opacity: .7;
+    opacity: 10;
+}
+
+.about-team-img::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    bottom: 30px;
+    right: 76px;
+    background-image: linear-gradient(0deg, var(--cretech-secondary, #9c2ede) 0%, var(--cretech-primary, #6a2dec) 100%);
+
+}
+
+.custom-title {
+    padding-left: 26px;
+    padding-top: 20px;
+    position: relative;
+    -webkit-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+}
+
+.custom-title ::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 6px;
+    height: 44px;
+    background-color: #9c2ede;
+}
+
+.custom-title:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    height: 69px;
+    z-index: -1;
+    background-color: #9c2ede;
+}
+
+.custom-title h5 {
+    color: #6C2FEC;
+}
+
+.custom-title:hover {
+    z-index: 10;
+    color: white;
+}
+
+.custom-title h3 {
+    background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
+    color: inherit;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+
+}
+
+.custom-title h3:hover {
+    background-size: 100% 1px;
+}
+
+.card-1 {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card-1:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
