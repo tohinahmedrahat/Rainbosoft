@@ -29,7 +29,7 @@ const Home = () => {
             {/* <OurProject></OurProject> */}
             {/* <Testimonial></Testimonial> */}
             <Technology></Technology>
-            <OurTeam></Our
+            <OurTeam></OurTeam>
             <Footer></Footer>
         </div>
     );
