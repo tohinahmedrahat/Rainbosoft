@@ -1,0 +1,98 @@
+.page-header {
+    background-color: var(--cretech-black, #12062c);
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.page-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    /* height: 100%; */
+    background-image: url(../../assets/img/page-header-1-2.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: 1;
+}
+.page-header__bg {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../assets/img/page-header-bg-1-1.jpg);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--cretech-black, #12062c);
+    mix-blend-mode: luminosity;
+    opacity: .7;
+}
+.container {
+    position: relative;
+    z-index: 3;
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #00C9FF 0%, #92FE9D  51%, #00C9FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  textarea:focus, input:focus{
+    outline: none;
+}
+.contact-aside{
+    background-image: url("../../assets/img/contact-one-bg-1-1.png");
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    visibility: visible;
+    width: 100%;
+}
+.contact-aside::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(55deg, var(--cretech-secondary, #9c2ede) 0%, var(--cretech-primary, #6a2dec) 100%);
+    opacity: 0.93;
+}
+.contact-one__item__text {
+    background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 80%/0px 1px no-repeat;
+    color: inherit;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+ .contact-one__item__text:hover{
+    color: #fff;
+    background-size: 100% 1px;
+ }
+ .custom-icon{
+    margin-right: 10px;
+    color: white;
+    transition: all ease-in-out 2s;
+ }
+ .custom-icon:hover{
+    color: red;
+ }
