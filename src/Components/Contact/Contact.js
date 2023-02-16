@@ -1,4 +1,8 @@
 import React from 'react';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import "./Contact.css";
 const Contact = () => {
     return (
@@ -32,12 +36,19 @@ const Contact = () => {
                         <div className='relative mt-9'>
                             <h3 className='text-white font-bold text-lg uppercase tracking-widest'>Phone</h3>
                             <p className='text-[#CBB8F6] mt-1 leading-7'>Phone: <span className='contact-one__item__text'>+8801317-713199</span>
-                               <br /> phone: <span>+8801867-585183</span></p>
+                               <br /> phone: <span className='contact-one__item__text'>+8801867-585183</span></p>
                         </div>
                         <div className='relative mt-9'>
                             <h3 className='text-white font-bold text-lg uppercase tracking-widest'>Email</h3>
-                            <p className='text-[#CBB8F6] mt-1 leading-7'>88 New Street, Washington DC
-                               <br /> United States, America</p>
+                            <p className='text-[#CBB8F6] mt-1 leading-7'>Email : <span className='contact-one__item__text'>input your company email</span>
+                               <br />Email : <span className='contact-one__item__text'>add second email</span> </p>
+                        </div>
+                        <div className='relative md:pt-44'>
+                            <h3 className='uppercase mb-2 font-semibold text-white text-2xl'>follow us on</h3>
+                            <a href='afjdskjfds'><FacebookIcon className='custom-icon' fontSize='large'></FacebookIcon></a>
+                            <a href='afjdskjfds'><TwitterIcon className='custom-icon' fontSize='large'></TwitterIcon></a>
+                            <a href='afjdskjfds'><InstagramIcon className='custom-icon' fontSize='large'></InstagramIcon></a>
+                            <a href='afjdskjfds'><LinkedInIcon className='custom-icon' fontSize='large'></LinkedInIcon></a>
                         </div>
                     </div>
                 </div>
