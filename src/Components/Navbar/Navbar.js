@@ -11,12 +11,15 @@ const Navbar = () => {
     var scrollTrigger = 100;
 
     window.onscroll = function () {
+        // bg-[#41d7eb28]
         // We add pageYOffset for compatibility with IE.
         if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
-            document.getElementById("header").classList.remove('bg-[#0EE29C]');
+            document.getElementById("header").classList.remove('bg-[#2FCE9E]');
+            document.getElementById("header").classList.add('bg-[#41d7eb28]');
             console.log('h')
         } else {
-            document.getElementById("header").classList.add('bg-[#0EE29C]');
+            document.getElementById("header").classList.add('bg-[#2FCE9E]');
+            document.getElementById("header").classList.remove('bg-[#41d7eb28]');
             console.log('n')
         }
     };
@@ -35,18 +38,27 @@ const Navbar = () => {
     return (
         <div class="sticky top-0 z-50 ">
             <nav class=" px-4 py-4 flex justify-between items-center bg-[#41d7eb28] bg-[#0EE29C] bg-nav " id='header'>
+
+            <nav class=" px-4 py-4 flex justify-between items-center bg-[#2FCE9E]  bg-nav " id='header'>
+
                 <Link class="text-3xl font-bold leading-none flex items-center text-[#fffdfd]" to="/">
                     RainboSoft
                 </Link>
-                <ul class="hidden  md:flex lg:mx-auto md:flex md:items-center lg:w-auto lg:space-x-6">
+                <ul class="hidden  md:flex lg:mx-auto  md:items-center lg:w-auto lg:space-x-6">
                     {menuItem}
+                   
+
                 </ul>
                 <button className='bg-[#ffffff93] px-5 py-3 text-[#000000] font-bold uppercase rounded-sm md:block hidden'>Get A Quote</button>
                 <button onClick={() => setOpen(!open)} className='md:hidden text-white'><MenuIcon ></MenuIcon></button>
             </nav>
             <ul className={`${open ? 'left-0' : 'left-[-1200px]'} absolute w-full ease-in duration-700 md:hidden`}>
+
                 {menuItem}
+
+            
             </ul>
+            </nav>
         </div>
     );
 };
