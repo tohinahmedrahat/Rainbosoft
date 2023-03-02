@@ -87,7 +87,7 @@ img {
 }
 .shape-1 {
     position: absolute;
-    top: -50%;
+    top: -113px;
     left: 0;
     z-index: -1;
     opacity: 0.5;
