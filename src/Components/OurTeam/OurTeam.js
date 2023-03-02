@@ -7,7 +7,7 @@ import EmailIcon from '@mui/icons-material/Email';
 const OurTeam = () => {
 
     return (
-        <div className='grid lg:grid-cols-3'>
+        <div className='grid lg:grid-cols-3 pb-5'>
             <div class="card w-80 p-5 mx-auto " data-state="#about">
                 <div class="">
                     <div class="card-cover text-center" ></div>
