@@ -1,44 +1,63 @@
 import React from 'react';
-import './OurTeam.scss';
-import turin from '../../assets/img/tohin.webp'
+import tohin from '../../assets/img/tohin.webp'
 import shamim from '../../assets/img/shamim.png'
+import razibul from "../../assets/img/razibul.png"
 import EmailIcon from '@mui/icons-material/Email';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import "./OurTeam.css"
 
 const OurTeam = () => {
-
     return (
-        <div className='grid lg:grid-cols-3 pb-5'>
-            <div class="card w-80 p-5 mx-auto " data-state="#about">
-                <div class="">
-                    <div class="card-cover text-center" ></div>
-                    <img class="w-24 rounded-full shadow-xl  h-24 mx-auto" src={turin} alt="avatar" />
-                    <h4 class="mt-4 text-center text-xl font-bold">Tohin Ahamed</h4>
-                    <h5 class=" mt-3 font-bold text-black text-center">Programmer & Support Engineer</h5>
-                    <h5 class=" mt-3 font-bold text-black text-center flex gap-3 items-center justify-center"> <EmailIcon></EmailIcon>
-                        tohin@rainbosoft.com</h5>
-                        <button className='bg-[#eb3068af] px-4 py-2 w-1/2 block text-white font-bold rounded-3xl mt-5 mx-auto'>Call Now</button>
+        <div className='grid lg:grid-cols-3 md:w-[90%] mx-auto pb-5 mb-3 gap-7 container'>
+            <div className="card-cover">
+                <img src={tohin} alt="" />
+                <div className='linkShareSection'>
+                    <a href="https://www.facebook.com/Bleaklife/"><FacebookIcon fontSize='large'></FacebookIcon></a>
+                    <a href="https://www.linkedin.com/in/tohim-ahmed/"><LinkedInIcon fontSize='large'></LinkedInIcon></a>
+                    <a href="https://twitter.com/tohinahmed15"><TwitterIcon fontSize='large'></TwitterIcon></a>
+                    <a href="https://www.facebook.com/Bleaklife/"><InstagramIcon fontSize='large'></InstagramIcon></a>
+                </div>
+                <div className='intro'>
+                    <h1 className='font-bold text-2xl m-2'>Tohin Ahmed</h1>
+                    <div className='customIntro'>
+                        <h2 className='font-semibold text-xl m-2'>Programmer & Support Engineer</h2>
+                        <h3 className='text-lg m-2'><EmailIcon className='text-green-400'></EmailIcon> tohin@rainbosoft.com</h3>
+                    </div>
                 </div>
             </div>
-            <div class="card w-80 p-5 mx-auto " data-state="#about">
-                <div class="">
-                    <div class="card-cover text-center" ></div>
-                    <img class="w-24 rounded-full shadow-xl  h-24 mx-auto" src={shamim} alt="avatar" />
-                    <h4 class="mt-4 text-center text-xl font-bold">Shamim Islam</h4>
-                    <h5 class=" mt-3 font-bold text-black text-center">Programmer</h5>
-                    <h5 class=" mt-3 font-bold text-black text-center flex gap-3 items-center justify-center"> <EmailIcon></EmailIcon>
-                        shamim@rainbosoft.com</h5>
-                        <button className='bg-[#eb3068af] px-4 py-2 w-1/2 block text-white font-bold rounded-3xl mt-5 mx-auto'>Call Now</button>
+            <div className="card-cover">
+                <img src={shamim} alt="" />
+                <div className='linkShareSection'>
+                    <a href="https://www.facebook.com/Bleaklife/"><FacebookIcon fontSize='large'></FacebookIcon></a>
+                    <a href="https://www.linkedin.com/in/tohim-ahmed/"><LinkedInIcon fontSize='large'></LinkedInIcon></a>
+                    <a href="https://twitter.com/tohinahmed15"><TwitterIcon fontSize='large'></TwitterIcon></a>
+                    <a href="https://www.facebook.com/Bleaklife/"><InstagramIcon fontSize='large'></InstagramIcon></a>
+                </div>
+                <div className='intro'>
+                    <h1 className='font-bold text-2xl m-2'>Shamim Islam</h1>
+                    <div className='customIntro'>
+                        <h2 className='font-semibold text-xl m-2'>Programmer</h2>
+                        <h3 className='text-lg m-2'><EmailIcon className='text-green-400'></EmailIcon>shamim@rainbosoft.com</h3>
+                    </div>
                 </div>
             </div>
-            <div class="card w-80 p-5 mx-auto " data-state="#about">
-                <div class="">
-                    <div class="card-cover text-center" ></div>
-                    <img class="w-24 rounded-full shadow-xl  h-24 mx-auto" src={turin} alt="avatar" />
-                    <h4 class="mt-4 text-center text-xl font-bold">Razibul Islam</h4>
-                    <h5 class=" mt-3 font-bold text-black text-center">Programmer</h5>
-                    <h5 class=" mt-3 font-bold text-black text-center flex gap-3 items-center justify-center"> <EmailIcon></EmailIcon>
-                        razibul@rainbosoft.com</h5>
-                        <button className='bg-[#eb3068af] px-4 py-2 w-1/2 block text-white font-bold rounded-3xl mt-5 mx-auto'>Call Now</button>
+            <div className="card-cover">
+                <img src={razibul} alt="" />
+                <div className='linkShareSection'>
+                    <a href="https://www.facebook.com/Bleaklife/"><FacebookIcon fontSize='large'></FacebookIcon></a>
+                    <a href="https://www.linkedin.com/in/tohim-ahmed/"><LinkedInIcon fontSize='large'></LinkedInIcon></a>
+                    <a href="https://twitter.com/tohinahmed15"><TwitterIcon fontSize='large'></TwitterIcon></a>
+                    <a href="https://www.facebook.com/Bleaklife/"><InstagramIcon fontSize='large'></InstagramIcon></a>
+                </div>
+                <div className='intro'>
+                    <h1 className='font-bold text-2xl m-2'>Razibul Islam</h1>
+                    <div className='customIntro'>
+                        <h2 className='font-semibold text-xl m-2'>Programmer</h2>
+                        <h3 className='text-lg m-2'><EmailIcon className='text-green-400'></EmailIcon>razibul@rainbosoft.com</h3>
+                    </div>
                 </div>
             </div>
         </div>
