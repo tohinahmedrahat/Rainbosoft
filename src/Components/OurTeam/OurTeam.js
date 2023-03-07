@@ -11,7 +11,7 @@ import "./OurTeam.css"
 
 const OurTeam = () => {
     return (
-        <div className='grid lg:grid-cols-3 md:w-[90%] w-[100%] md:mx-auto pb-5 mb-3 md:gap-7 container'>
+        <div className='grid lg:grid-cols-3 md:w-[90%] w-[100%] md:mx-auto pb-5 md:gap-7 container'>
             <div className="card-cover md:m-[50px] md:w-[350px] w-[300px]">
                 <img src={tohin} alt="" />
                 <div className='linkShareSection'>
