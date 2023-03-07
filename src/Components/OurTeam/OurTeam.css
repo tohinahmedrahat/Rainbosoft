@@ -1,8 +1,6 @@
 .card-cover{
     height: 350px;
-    margin: 50px;
     position: relative;
-    width: 350px;
     overflow: hidden;
     box-shadow: 5px 5px 20px black;
 }

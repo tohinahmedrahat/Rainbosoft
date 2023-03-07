@@ -11,8 +11,8 @@ import "./OurTeam.css"
 
 const OurTeam = () => {
     return (
-        <div className='grid lg:grid-cols-3 md:w-[90%] mx-auto pb-5 mb-3 gap-7 container'>
-            <div className="card-cover">
+        <div className='grid lg:grid-cols-3 md:w-[90%] w-[100%] md:mx-auto pb-5 mb-3 md:gap-7 container'>
+            <div className="card-cover md:m-[50px] md:w-[350px] w-[300px]">
                 <img src={tohin} alt="" />
                 <div className='linkShareSection'>
                     <a href="https://www.facebook.com/Bleaklife/"><FacebookIcon fontSize='large'></FacebookIcon></a>
@@ -23,12 +23,12 @@ const OurTeam = () => {
                 <div className='intro'>
                     <h1 className='font-bold text-2xl m-2'>Tohin Ahmed</h1>
                     <div className='customIntro'>
-                        <h2 className='font-semibold text-xl m-2'>Programmer & Support Engineer</h2>
+                        <h2 className='font-semibold md:text-xl m-2'>Programmer & Support Engineer</h2>
                         <h3 className='text-lg m-2'><EmailIcon className='text-green-400'></EmailIcon> tohin@rainbosoft.com</h3>
                     </div>
                 </div>
             </div>
-            <div className="card-cover">
+            <div className="card-cover md:m-[50px] md:w-[350px] w-[300px]">
                 <img src={shamim} alt="" />
                 <div className='linkShareSection'>
                     <a href="https://www.facebook.com/Bleaklife/"><FacebookIcon fontSize='large'></FacebookIcon></a>
@@ -44,7 +44,7 @@ const OurTeam = () => {
                     </div>
                 </div>
             </div>
-            <div className="card-cover">
+            <div className="card-cover md:m-[50px] w-[300px] md:w-[350px]">
                 <img src={razibul} alt="" />
                 <div className='linkShareSection'>
                     <a href="https://www.facebook.com/Bleaklife/"><FacebookIcon fontSize='large'></FacebookIcon></a>

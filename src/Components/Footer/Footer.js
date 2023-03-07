@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div>
 
-            <div className='footer'>
+            <div className='footer text-center'>
                 <div class="md:w-[90%] mx-auto py-10 pt-28">
                     <div className='md:grid grid-cols-4 relative text-white'>
                         <div >
