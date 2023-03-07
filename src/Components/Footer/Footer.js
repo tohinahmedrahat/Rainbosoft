@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
 
             <div className='footer'>
-                <div class="md:w-[90%] mx-auto py-10 pt-28">
+                <div className="md:w-[90%] mx-auto py-10 pt-28">
                     <div className='md:grid grid-cols-4 relative text-white'>
                         <div >
                             <h4 className='text-lg font-medium mb-2'>USE CASES</h4>
@@ -39,12 +39,12 @@ const Footer = () => {
                             <Link className='hover:text-green-400'>+8801317713199</Link>
                         </div>
                     </div>
-                    <div class="mt-28 flex text-white relative flex-col md:flex-row md:justify-between items-center text-sm">
-                        <Link to="/home" class="order-2 md:order-1 mt-8 md:mt-0 hover:text-green-400"> &copy; Rainbosoft, 2023. </Link>
-                        <div class="order-1 md:order-2 ">
-                            <Link to="/about" class="px-2 hover:text-green-400">About us</Link>
-                            <Link to="/contact" class="px-2 border-l hover:text-green-400">Contact us</Link>
-                            <Link to="/" class="px-2 border-l hover:text-green-400">Privacy Policy</Link>
+                    <div className="mt-28 flex text-white relative flex-col md:flex-row md:justify-between items-center text-sm">
+                        <Link to="/home" className="order-2 md:order-1 mt-8 md:mt-0 hover:text-green-400"> &copy; Rainbosoft, 2023. </Link>
+                        <div className="order-1 md:order-2 ">
+                            <Link to="/about" className="px-2 hover:text-green-400">About us</Link>
+                            <Link to="/contact" className="px-2 border-l hover:text-green-400">Contact us</Link>
+                            <Link to="/" className="px-2 border-l hover:text-green-400">Privacy Policy</Link>
                         </div>
                     </div>
                 </div>

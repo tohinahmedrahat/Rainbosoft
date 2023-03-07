@@ -24,27 +24,27 @@ const Navbar = () => {
         }
     };
     const menuItem = <React.Fragment>
-        <li><Link class="nav-link text-gray-400" to="/">Home <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
+        <li><Link className="nav-link text-gray-400" to="/">Home <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
 
-        <li><Link class="nav-link  text-gray-400" to="/about">About Us <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
+        <li><Link className="nav-link  text-gray-400" to="/about">About Us <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
 
-        <li><Link class="nav-link text-gray-400" to="/service">Services <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
+        <li><Link className="nav-link text-gray-400" to="/service">Services <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
 
-        <li><Link class="nav-link text-gray-400" to="/project">Project <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
-        <li><Link class="nav-link text-gray-400" to="/contact">Contact <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
+        <li><Link className="nav-link text-gray-400" to="/project">Project <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
+        <li><Link className="nav-link text-gray-400" to="/contact">Contact <ArrowForwardIosIcon className='nav-icon'></ArrowForwardIosIcon></Link></li>
     </React.Fragment>
 
 
     return (
-        <div class="sticky top-0 z-50 ">
-            <nav class=" px-4 py-4 flex justify-between items-center bg-[#41d7eb28] bg-[#0EE29C] bg-nav " id='header'>
+        <div className="sticky top-0 z-50 ">
+            <nav className=" px-4 py-4 flex justify-between items-center bg-[#41d7eb28] bg-[#0EE29C] bg-nav " id='header'>
 
-            <nav class=" px-4 py-4 flex justify-between items-center bg-[#2FCE9E]  bg-nav " id='header'>
+            <nav className=" px-4 py-4 flex justify-between items-center bg-[#2FCE9E]  bg-nav " id='header'>
 
-                <Link class="text-3xl font-bold leading-none flex items-center text-[#fffdfd]" to="/">
+                <Link className="text-3xl font-bold leading-none flex items-center text-[#fffdfd]" to="/">
                     RainboSoft
                 </Link>
-                <ul class="hidden  md:flex lg:mx-auto  md:items-center lg:w-auto lg:space-x-6">
+                <ul className="hidden  md:flex lg:mx-auto  md:items-center lg:w-auto lg:space-x-6">
                     {menuItem}
                    
 

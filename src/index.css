@@ -2,12 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-.home{
-  font-family: 'Space Grotesk', sans-serif;
+.home {
+  font-family: "Space Grotesk", sans-serif;
   /* background-image: linear-gradient(#01afff, 15%, #090218); */
-  background-image: linear-gradient( #2DCF9E , 25%, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #5ffbf1);
+  background-image: linear-gradient(
+    #2dcf9e,
+    25%,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #5ffbf1
+  );
 }
 
-body{
-  font-family: 'Space Grotesk', sans-serif;
+body {
+  font-family: "Space Grotesk", sans-serif;
 }

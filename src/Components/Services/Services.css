@@ -1,0 +1,52 @@
+.box {
+  transition: 0.4s;
+}
+
+.box:hover {
+  box-shadow: 0px 55px 89px rgb(0 0 0 / 10%);
+}
+.serviceEffect {
+  box-shadow: 0px 9px 15px rgb(7 18 35 / 8%);
+}
+.serviceEffect::after {
+  background: #33cc79;
+  content: "";
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.serviceEffect::before {
+  background: #33cc79;
+  content: "";
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.serviceContactEffect {
+  box-shadow: 0px 9px 15px rgb(7 18 35 / 8%);
+}
+
+.serviceContactEffect::after {
+  background: #6864ed;
+  content: "";
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.serviceContactEffect::before {
+  content: "";
+  background: #6864ed;
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
