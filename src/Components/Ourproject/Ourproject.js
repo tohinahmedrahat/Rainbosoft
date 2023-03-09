@@ -3,7 +3,7 @@ import React from 'react';
 const OurProject = () => {
     return (
         <div>
-            this is our project page
+            This is Project.
         </div>
     );
 };

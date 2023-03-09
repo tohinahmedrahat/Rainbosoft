@@ -1,0 +1,9 @@
+.imageCard {
+  padding: 20px;
+  opacity: 0;
+  transition: 500ms;
+}
+
+.cardImage:hover .imageCard {
+  opacity: 1;
+}

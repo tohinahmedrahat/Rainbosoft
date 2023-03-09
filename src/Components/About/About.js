@@ -91,8 +91,8 @@ const About = () => {
 
                             If you're looking for a partner that you can trust to deliver custom web development solutions that drive results, look no further than RainboSoft. Contact us today to learn more about how we can help you succeed online.</p>
                     </div>
-                    <div class="fullscreen-bg md:w-[50%]">
-                        <video autoPlay loop muted controls class="fullscreen-bg__video">
+                    <div className="fullscreen-bg md:w-[50%]">
+                        <video autoPlay loop muted controls className="fullscreen-bg__video">
                             <source src={welcomeVideo} type='video/mp4' />
                         </video>
                     </div>
