@@ -1,29 +1,27 @@
-.bg-nav{
-    /* background-color: rgba(0, 0, 0, 0.514); */
-    backdrop-filter: blur(25px);
-    /* box-shadow: 5px 5px 15px rgb(67, 247, 238); */
-    /* z-index: 100000 !important; */
+.bg-nav {
+  /* background-color: rgba(0, 0, 0, 0.514); */
+  backdrop-filter: blur(25px);
+  /* box-shadow: 5px 5px 15px rgb(67, 247, 238); */
+  /* z-index: 100000 !important; */
 }
 
-.nav-icon{
-    transform: scale(.5);
+.nav-icon {
+  transform: scale(0.5);
 }
 
-.nav-link{
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-    font-weight: 500;
+.nav-link {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
 }
 
-
-.nav-link-2{
-    color: rgb(255, 255, 255);
+.nav-link-2 {
+  color: rgb(255, 255, 255);
 }
 
-
-:root{
-    /* text-shadow: 2px 1px black; */
-}
+/* :root {
+  text-shadow: 2px 1px black;
+} */
 /* h3{
     text-shadow: 2px 1px black;
 }
